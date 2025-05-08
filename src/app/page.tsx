@@ -51,7 +51,7 @@ export default function BioPage() {
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
         <div className="md:col-span-1">
-          <h1 className="text-6xl font-bold leading-tight mb-4">Hello<span className="text-orange-400">!</span></h1>
+          <h1 className="text-6xl font-bold leading-tight mb-4">Hello<span className={ isDark? "text-blue-900" : "text-orange-400" }>!</span></h1>
           <p className="text-lg leading-relaxed">
             <span className="font-semibold italic">Didier Nsengiyumva</span>, based in Kigali - Rwanda, currently freelancing.
           </p>
@@ -68,8 +68,7 @@ export default function BioPage() {
   Passionate about crafting elegant, high-performance digital experiences and robust REST APIs that power real-world solutions.
 </p>
 
-  {/* <p className="mb-4">UI/UX designer with 6+ years of experience. Worked with global brands.</p>
-  <p>Passionate about crafting thoughtful digital products with lasting impact.</p> */}
+  
 </div>
 
 
