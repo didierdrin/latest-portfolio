@@ -57,16 +57,19 @@ export default function BioPage() {
           </p>
         </div>
 
-        {/* <div className="md:col-span-1 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-          <p className="text-xs text-gray-500 mb-2">(02)</p>
-          <p className="mb-4">UI/UX designer with 6+ years of experience. Worked with global brands.</p>
-          <p>Passionate about crafting thoughtful digital products with lasting impact.</p>
-        </div> */}
+     
 
 <div className="md:col-span-1 text-sm leading-relaxed" style={{ color: isDark ? '#d1d5db' : '#374151' }}>
   <p className="text-xs mb-2" style={{ color: isDark ? '#9ca3af' : '#6b7280' }}>(02)</p>
-  <p className="mb-4">UI/UX designer with 6+ years of experience. Worked with global brands.</p>
-  <p>Passionate about crafting thoughtful digital products with lasting impact.</p>
+  <p className="mb-4">
+  Persistent software developer fluent in Flutter (Dart), JavaScript (Next.js, React), and Python (Flask, Django). Experienced with building scalable backends using Firebase, PostgreSQL, MySQL, and Spring Boot.
+</p>
+<p>
+  Passionate about crafting elegant, high-performance digital experiences and robust REST APIs that power real-world solutions.
+</p>
+
+  {/* <p className="mb-4">UI/UX designer with 6+ years of experience. Worked with global brands.</p>
+  <p>Passionate about crafting thoughtful digital products with lasting impact.</p> */}
 </div>
 
 
